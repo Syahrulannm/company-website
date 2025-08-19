@@ -11,7 +11,7 @@ export default function ShowCase() {
           <div className="bg-white border rounded-lg shadow-md dark:bg-slate-800 dark:border-gray-700 ">
             <div className="p-2 flex justify-center overflow-hidden">
               <a href="https://syahrul-dev.netlify.app">
-                <img className="rounded-lg hover:scale-110 transition-smooth object-cover object-center" src="/preview-portfolio.webp" alt="Portfolio" loading="lazy" />
+                <img src="/preview-portfolio.webp" alt="Portfolio" className="rounded-lg hover:scale-110 transition-smooth object-cover object-center" loading="lazy" />
               </a>
             </div>
             <div className="px-4 pb-3">
@@ -24,7 +24,7 @@ export default function ShowCase() {
               <div className="mt-2 flex justify-between">
                 <div className="flex items-center gap-2 py-2">
                   <a href="https://syahrul-dev.netlify.app">
-                    <img src="/syahrul-profil.webp" className="object-cover w-6 h-6 rounded-full" alt="team-tailwindflex" loading="lazy" />
+                    <img src="/syahrul-profil.webp" className="object-cover w-6 h-6 rounded-full" alt="profil" loading="lazy" />
                   </a>
                   <div className="text-gray-600 dark:text-gray-300 hover:text-sky-800 ">
                     <a href="flex flex-col" className="text-sm">
@@ -50,7 +50,7 @@ export default function ShowCase() {
           <div className="bg-white border rounded-lg shadow-md dark:bg-slate-800 dark:border-gray-700 ">
             <div className="p-2 flex justify-center overflow-hidden">
               <a href="https://jaya-motor.netlify.app">
-                <img className="rounded-lg hover:scale-110 transition-smooth object-cover object-center" src="/preview-landing-motor.webp" alt="Simple Search Bar" loading="lazy" />
+                <img className="rounded-lg hover:scale-110 transition-smooth object-cover object-center" src="/preview-landing-motor.webp" alt="Jaya Motor" loading="lazy" />
               </a>
             </div>
             <div className="px-4 pb-3">
@@ -58,12 +58,12 @@ export default function ShowCase() {
                 <a href="https://jaya-motor.netlify.app">
                   <h5 className="text-xl font-semibold tracking-tight hover:text-sky-800 dark:hover:text-sky-300 text-gray-900 dark:text-white ">E-commerce Motor</h5>
                 </a>
-                <p className="text-gray-600 dark:text-gray-400 text-sm break-all">Minimalist design</p>
+                <p className="text-gray-600 dark:text-gray-400 text-sm break-all">Motorcycle promotional website modern yang dibangun dengan React, Tailwind CSS, dan komponen modular.</p>
               </div>
               <div className="mt-2 flex justify-between">
                 <div className="flex items-center gap-2 py-2">
                   <a href="https://syahrul-dev.netlify.app">
-                    <img src="/syahrul-profil.webp" className="object-cover w-6 h-6 rounded-full" alt="team-tailwindflex" loading="lazy" />
+                    <img src="/syahrul-profil.webp" className="object-cover w-6 h-6 rounded-full" alt="profil" loading="lazy" />
                   </a>
                   <div className="text-gray-600 dark:text-gray-300 hover:text-sky-800 ">
                     <a href="flex flex-col" className="text-sm">
@@ -88,21 +88,21 @@ export default function ShowCase() {
           {/* Card 3 */}
           <div className="bg-white border rounded-lg shadow-md dark:bg-slate-800 dark:border-gray-700 ">
             <div className="p-2 flex justify-center overflow-hidden">
-              <a href="https://mindwealth.netlify.app">
-                <img className="rounded-lg hover:scale-110 transition-smooth object-cover object-center" src="https://tailwindflex.com/public/images/thumbnails/simple-search-bar/thumb_u.min.webp" alt="Simple Search Bar" loading="lazy" />
+              <a href="https://coffee-co-annam.netlify.app/">
+                <img src="/preview-coffee-co.webp" className="rounded-lg hover:scale-110 transition-smooth object-cover object-center" alt="Coffee Shop Website" loading="lazy" />
               </a>
             </div>
             <div className="px-4 pb-3">
               <div>
-                <a href="https://mindwealth.netlify.app">
-                  <h5 className="text-xl font-semibold tracking-tight hover:text-sky-800 dark:hover:text-sky-300 text-gray-900 dark:text-white ">Blog-MindWealth</h5>
+                <a href="https://coffee-co-annam.netlify.app/">
+                  <h5 className="text-xl font-semibold tracking-tight hover:text-sky-800 dark:hover:text-sky-300 text-gray-900 dark:text-white ">Coffee Shop Website</h5>
                 </a>
-                <p className="text-gray-600 dark:text-gray-400 text-sm break-all">Minimalist design</p>
+                <p className="text-gray-600 dark:text-gray-400 text-sm break-all">Minimalist design, modern and responsive</p>
               </div>
               <div className="mt-2 flex justify-between">
                 <div className="flex items-center gap-2 py-2">
                   <a href="https://syahrul-dev.netlify.app">
-                    <img src="/syahrul-profil.webp" className="object-cover w-6 h-6 rounded-full" alt="team-tailwindflex" loading="lazy" />
+                    <img src="/syahrul-profil.webp" className="object-cover w-6 h-6 rounded-full" alt="profil" loading="lazy" />
                   </a>
                   <div className="text-gray-600 dark:text-gray-300 hover:text-sky-800 ">
                     <a href="flex flex-col" className="text-sm">
