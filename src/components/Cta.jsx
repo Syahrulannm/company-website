@@ -11,7 +11,7 @@ export default function Cta() {
             {/* <a href="#" className="bg-gray-900 hover:bg-gray-800 text-white font-bold py-4 px-8 rounded-full transition-colors">
               Penawaran Harga
             </a> */}
-            <a href="tel:+917307022824" className="bg-white hover:bg-gray-100 text-gray-900 font-bold py-4 px-8 rounded-full transition-colors flex items-center justify-center">
+            <a href="https://wa.me/088225316312" className="bg-white hover:bg-gray-100 text-gray-900 font-bold py-4 px-8 rounded-full transition-colors flex items-center justify-center">
               {/* <!-- Phone Icon Placeholder --> */}
               <svg className="h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path
