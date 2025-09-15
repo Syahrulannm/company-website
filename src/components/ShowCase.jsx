@@ -10,13 +10,13 @@ export default function ShowCase() {
           {/* Card 1 */}
           <div className="bg-white border rounded-lg shadow-md dark:bg-slate-800 dark:border-gray-700 ">
             <div className="p-2 flex justify-center overflow-hidden">
-              <a href="https://syahrul-dev.netlify.app">
-                <img src="/preview-portfolio.webp" alt="Portfolio" className="rounded-lg hover:scale-110 transition-smooth object-cover object-center" loading="lazy" />
+              <a href="https://portfolio-gagas.netlify.app">
+                <img src="/preview-gagas.webp" alt="Portfolio" className="rounded-lg hover:scale-110 transition-smooth object-cover object-center" loading="lazy" />
               </a>
             </div>
             <div className="px-4 pb-3">
               <div>
-                <a href="https://syahrul-dev.netlify.app">
+                <a href="https://portfolio-gagas.netlify.app">
                   <h5 className="text-xl font-semibold tracking-tight hover:text-sky-800 dark:hover:text-sky-300 text-gray-900 dark:text-white ">Portfolio v1</h5>
                 </a>
                 <p className="text-gray-600 dark:text-gray-400 text-sm break-all">Portfolio elegan, responsive, dan modern</p>

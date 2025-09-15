@@ -1,9 +1,37 @@
-🛠️ Services Section – Company Website
-📌 Deskripsi
+# 🛠️ Services Section – Company Website
 
-Bagian Layanan (Services) ini merupakan salah satu komponen utama dari website company profile. Tujuannya adalah untuk menampilkan secara profesional daftar layanan yang ditawarkan, sekaligus memudahkan pengguna memahami mengapa memilih kami (Why Choose Us) dan apa yang bisa mereka dapatkan.
+Proyek ini adalah website company profile yang berfokus pada layanan (services) digital seperti **Web Design, Frontend Development, Deployment, dan Web Apps**. Dibangun dengan **React + Vite + TailwindCSS**, proyek ini ditujukan untuk memberikan tampilan modern, responsif, serta mudah dikembangkan lebih lanjut.
 
-🎯 Tujuan
+---
+
+## 📖 Deskripsi
+
+Website ini dibuat sebagai simulasi proyek layanan untuk perusahaan digital/agency. Fokus utamanya adalah menampilkan informasi layanan yang ditawarkan dengan cara **modern, interaktif, dan ramah pengguna**.  
+Proyek ini juga berfungsi sebagai **portofolio nyata** dalam mempelajari React, TailwindCSS, dan logika frontend development.
+
+---
+
+## ✨ Fitur Utama
+
+- ✅ **Navigasi Responsif**: Menu navigasi yang mendukung desktop & mobile.
+- ✅ **Dropdown Layanan**: Submenu untuk menampilkan kategori layanan.
+- ✅ **Dark/Light Mode**: Toggle tema bawaan untuk kenyamanan pengguna.
+- ✅ **Halaman Layanan (Services Page)**: Menampilkan detail dari layanan utama.
+- ✅ **Komponen Modular**: Setiap bagian dipisah menjadi komponen untuk memudahkan perawatan.
+- ✅ **Animasi Halus**: Menggunakan transition & hover effect agar interaktif.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **React** (Vite) → framework utama untuk membangun website.
+- **TailwindCSS** → styling cepat dan konsisten.
+- **FontAwesome** → ikon navigasi & layanan.
+- **React Router** → navigasi antar halaman.
+
+---
+
+# 🎯 Tujuan
 
 Memberikan informasi yang jelas tentang layanan perusahaan.
 
@@ -11,36 +39,6 @@ Membuat tampilan interaktif dengan dropdown menu untuk navigasi cepat.
 
 Menyajikan konten persuasif agar pengguna tertarik menggunakan layanan.
 
-✨ Fitur
-
-Dropdown menu untuk navigasi layanan (responsive & mobile-friendly).
-
-Deskripsi singkat namun persuasif untuk setiap layanan.
-
-Animasi hover & transition dengan TailwindCSS.
-
-Theme Toggle (Dark/Light mode) tetap sinkron meskipun dropdown terbuka.
-
-📂 Struktur
-
-Services.jsx → Halaman utama layanan.
-
-components/ServiceCard.jsx → Kartu layanan per item.
-
-components/DropdownMenu.jsx → Dropdown menu di navbar.
-
-ThemeToggleSwitch.jsx → Tombol dark/light mode.
-
-📊 Teknologi
-
-React + Vite
-
-TailwindCSS
-
-React Router (navigasi)
-
-FontAwesome (ikon)
-
-✅ Kesimpulan
+# ✅ Kesimpulan
 
 Bagian Layanan ini bukan hanya menampilkan daftar jasa, tetapi juga berfungsi sebagai media branding dan trust-building. Dengan desain responsif, interaktif, dan dilengkapi konten persuasif, halaman ini diharapkan dapat meningkatkan engagement dan konversi pengguna.
