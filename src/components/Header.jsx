@@ -63,9 +63,12 @@ export default function Header() {
           {/* <a href="#" className="hover:text-gray-300">
             Layanan
           </a> */}
-          <a href="#" className="hover:text-gray-300">
+          <Link to="/layanan" className="hover:text-gray-300">
             Kontak
-          </a>
+          </Link>
+          <Link to="/privacy" className="hover:text-gray-300">
+            Privacy
+          </Link>
           <button className="md:hidden bg-sky-600 hover:bg-sky-700 text-white px-8 py-3 rounded-full font-medium transition">Sign up</button>
 
           {/* Toggle Menu
