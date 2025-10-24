@@ -1,5 +1,6 @@
 import { faBarChart, faBrain, faCodeMerge, faFastForward, faRocket } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -84,7 +85,7 @@ export default function Footer() {
                 <a href="#">Careers</a>
               </li>
               <li>
-                <a href="#">Privacy</a>
+                <Link to="/privacy">Privacy</Link>
               </li>
               <li>
                 <a href="#">Terms</a>

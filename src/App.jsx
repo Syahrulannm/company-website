@@ -7,6 +7,7 @@ import { faB } from "@fortawesome/free-solid-svg-icons";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Layanan from "./pages/Layanan";
+import Privacy from "./pages/Privacy";
 
 library.add(faS, faB, faR);
 function App() {
@@ -17,7 +18,8 @@ function App() {
           <main>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/Layanan" element={<Layanan />} />
+              <Route path="/layanan" element={<Layanan />} />
+              <Route path="/privacy" element={<Privacy />} />
             </Routes>
           </main>
           <Footer />

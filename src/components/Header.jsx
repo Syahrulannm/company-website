@@ -46,18 +46,18 @@ export default function Header() {
               <path d="m4.5 7.2 3.793 3.793a1 1 0 0 0 1.414 0L13.5 7.2" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
             <div className="absolute bg-slate-900 font-normal flex flex-col gap-2 w-max rounded-lg p-4 top-36 left-0 opacity-0 -translate-y-full group-hover:top-44 group-hover:opacity-100 transition-all duration-300">
-              <a href="#" className="hover:translate-x-1 hover:text-slate-500 transition-all">
+              <Link to="/layanan" className="hover:translate-x-1 hover:text-slate-500 transition-all">
                 Design Web
-              </a>
-              <a href="#" className="hover:translate-x-1 hover:text-slate-500 transition-all">
+              </Link>
+              <Link to="/layanan" className="hover:translate-x-1 hover:text-slate-500 transition-all">
                 Front-end Dev
-              </a>
-              <a href="#" className="hover:translate-x-1 hover:text-slate-500 transition-all">
+              </Link>
+              <Link to="/layanan" className="hover:translate-x-1 hover:text-slate-500 transition-all">
                 Deploys
-              </a>
-              <a href="#" className="hover:translate-x-1 hover:text-slate-500 transition-all">
+              </Link>
+              <Link to="/layanan" className="hover:translate-x-1 hover:text-slate-500 transition-all">
                 Web Apps
-              </a>
+              </Link>
             </div>
           </div>
           {/* <a href="#" className="hover:text-gray-300">
